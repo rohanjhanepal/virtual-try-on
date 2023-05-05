@@ -6,7 +6,7 @@ We made a web app for easier access.
 Instructions:
 1. vton.yml file is conda environment that can be used to install dependencies and create environment to run the project.
 2. download and extract files & folders from drive and paste in to root directory
-    drive: 
+    drive: https://drive.google.com/file/d/1GJLP6YXPiSOWOniWTg22EKuSVUl544Kx/view?usp=share_link
 3. Run server.py to run the server and try on the project yourself
 
 ![Picture1](https://user-images.githubusercontent.com/40380541/236368079-69b05b78-2f2e-46be-9f43-f29be6118e3d.png)
