@@ -1,0 +1,88 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.box
+{
+    margin-top:60px;
+    margin-left:100px;
+    background-image: linear-gradient(120deg , #8e9eab , #eef2f3);
+    height:500px;
+    width:auto;
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 0.25s ease-in-out;
+}
+.box:hover
+{
+    box-shadow: rgba(30, 201, 75, 0.25) 0px 54px 55px, rgba(30, 201, 75, 0.25) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inp
+{
+    
+    align-items: center;
+    display: flex;
+    top:20;
+
+}
+
+.green
+{
+    color: rgb(28, 91, 28);
+    font-weight: bolder;
+}
+.red
+{
+    color: rgb(91, 47, 28);
+    font-weight: bolder;
+}
+
+.center_div
+{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin-left:20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#sendingMsg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.704);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    animation: fadeIn 0.5s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 9999;
+
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#resultImg {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
